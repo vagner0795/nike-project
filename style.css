@@ -1,0 +1,191 @@
+/* MENU DO SITE */
+
+nav {
+    background: #FFF6DA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease;
+    transform: translateX(0%);
+}
+
+.nav-links a:hover {
+    color: #FC6B3F;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: #FC6B3F;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+/* HOME*/
+.container-home {
+    background-color: #FFF6DA;
+    height: 660px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.title-home{
+    width: 480px;
+    text-align: center;
+    font-size:36px;
+    font-weight: 700;
+    line-height: 47px;
+
+    position: absolute;
+    top: 215px;
+    left: 57px;
+}
+.home-img{
+    height:418px;
+    width: 683px;
+
+    position: absolute;
+    top: 100px;
+    left: 621px;
+}
+.orange-text {
+    color: #FC6B3F;
+}
+
+.divisor-line {
+    width: 100%;
+    height: 30px;
+}
+/* ABOUT */
+
+.container-about {
+    background-color: #FFF6DA;
+    height: 100vh;
+
+}
+/* DEPOSITIONS */
+
+.container-depositions {
+    background-color: #FFF6DA;
+    height: 100vh;
+}
+.line hr{
+    height: 6px;
+    background-color: #84F2D6;
+    border: none;
+    width: 100%;
+}
+
+/* CONTACT */
+
+.container-contact {
+    background-color: #FFF6DA;
+    height: 100vh;
+
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 760px) {
+    nav {
+        justify-content: space-between;
+        padding: 0 5vw;
+        height: 60px;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        min-height: 92vh;
+        background: #FFF6DA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 0;
+        padding: 0;
+        transform: translateX(100%);
+        transition: All 0.5s ease-in;
+    }
+
+    .nav-links a {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    nav {
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+@media only screen and (max-width: 460px) {
+    .nav-links {
+        width: 100%;
+        transition: All 0.5s ease;
+    }
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+/* ANIMATION */
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
