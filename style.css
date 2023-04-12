@@ -63,8 +63,9 @@ nav {
     background-color: #FFF6DA;
     height: 660px;
     display: flex;
-    gap: 30px;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-home {
@@ -73,18 +74,13 @@ nav {
     font-size: 36px;
     font-weight: 700;
     line-height: 47px;
-    position: absolute;
-    top: 215px;
-    left: 57px;
+
 }
 
 .home-img {
     height: 418px;
     width: 683px;
 
-    position: absolute;
-    top: 100px;
-    left: 621px;
 }
 
 .divisor-line {
@@ -285,7 +281,58 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* MOBILE */
+
+/* TABLET Galaxy Tab 57 da extensão(800px - 1200px) */
+@media only screen and (max-width: 800px) {
+    /* HEADER */
+
+    .nav-links{
+        margin-right: 25px;
+    }
+
+    /* HOME */
+    
+    .container-home{
+        flex-direction: column;
+    }
+    .home-img{
+        width: 450px;
+        height: auto;
+    }
+
+    /* ABOUT */
+
+    .img-e-text{
+        margin-top: 80px;
+    }
+    .title-about{
+        width: 600px;
+    }
+    .paragraph{
+        width: 500px;
+    }
+    .cards-details{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card{
+        width: 600px;
+        height: 250px;
+    }
+    .card-title-about{
+        font-size: 27px;
+    }
+    .card-text-about{
+        font-size: 20px;
+    }
+
+
+}
+/* FIM DO TABLET */
+
+
+
+/* MOBILE Menu "Não Alterar" */
 
 @media only screen and (max-width: 760px) {
     nav {
