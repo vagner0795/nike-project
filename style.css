@@ -27,6 +27,8 @@ nav {
     justify-content: space-between;
     gap: 40px;
     margin-right: 150px;
+    z-index: 2;
+
 }
 
 .nav-links a {
@@ -81,6 +83,35 @@ nav {
     height: 418px;
     width: 683px;
 
+}
+
+.container-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.background-buttom{
+    display: none;
+}
+.buttom-buy-home{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding:20px;
+    background-color: #FC6B3F;
+    width: 190px;
+    height: 60px;
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.buttom-buy-home:hover{
+    opacity: 0.8;
 }
 
 .divisor-line {
@@ -299,6 +330,9 @@ button:hover {
         width: 450px;
         height: auto;
     }
+    .container-img{
+        align-items: center;
+    }
 
     /* ABOUT */
 
@@ -330,7 +364,64 @@ button:hover {
 }
 /* FIM DO TABLET */
 
+/* MOBILE CONFIG INICIO */
+@media only screen and (max-width: 460px) {
+    /* HOME INICIO */
+    .title-home{
+        font-size: 22px;
+        width: 300px;
+    }
+    .home-img{
+        width: 300px;
+    }
 
+    .background-buttom{
+        display: block;
+        position: absolute;
+        width: 65%;
+        top: 560px;
+        left: 70px;
+        z-index: 1;
+    }
+
+    /* HOME FINAL */
+
+    /* ABOUT INICIO */
+    .img-e-text{
+        margin-top: 40px;
+    }
+    .about-img{
+        width: 240px;
+        height: auto;
+    }
+    .title-about{
+        width: 320px;
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .paragraph{
+        width: 340px;
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .card{
+        width: 325px;
+        height: 160px;
+    }
+    .card-title-about{
+        font-size: 17px;
+    }
+    .card-text-about{
+        font-size: 14px;
+    }
+    .img-card{
+        width: 25px;
+    }
+
+    /* ABOUT FINAL */
+
+}
+/* MOBILE CONFIG FINAL */
 
 /* MOBILE Menu "Não Alterar" */
 
