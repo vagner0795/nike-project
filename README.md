@@ -28,7 +28,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./assets/" width="100px;" alt="Foto da Mikaeli"/><br>
+        <img src="./assets/20220101_005147 (2).jpg" width="100px;" alt="Foto da Mikaeli"/><br>
         <sub>
           <b>Mikaeli Sampaio</b>
         </sub>
