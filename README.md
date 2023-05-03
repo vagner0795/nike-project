@@ -18,6 +18,7 @@ usando Html, Css, Javascript.
 - [x] Criação do CSS
 - [x] Criação do JAVASCRIPT
 - [x] Responsividade
+- [x] Trabalho em Equipe
 
 
 ## 🤝 Colaboradores
