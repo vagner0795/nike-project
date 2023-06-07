@@ -2,10 +2,9 @@
 
 
 
-<img src="./assets/" alt="logo-projeto-Nike">
-<img src="./assets/" alt="logo-projeto-Nike">
-<img src="./assets/" alt="logo-projeto-Nike">
-<img src="./assets/" alt="logo-projeto-Nike">
+<img src="./assets/result/desktop.png" alt="logo-projeto-Nike">
+<img src="./assets/result/tablet.png" alt="logo-projeto-Nike">
+<img src="./assets/result/phone.png" alt="logo-projeto-Nike">
 
 > Resultado do projeto-Nike.
 
